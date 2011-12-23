@@ -1,0 +1,414 @@
+.pageholder {
+	font-family: Tahoma, "Trebuchet MS";
+	font-size: 12px;
+	line-height: 20px;
+	color: #999999;
+	position: absolute;
+	width: 800px;
+	height: 700px;
+}
+.logo {
+	width:250px;
+	height:130px;
+	background-image: url(../images/LOGO_smaller_white.png);
+	float: left;
+	position: absolute;
+}
+#logohome {
+	left: 34px;
+	top: 40px;
+	background-image: url(../images/LOGO_smaller_white.png);
+}
+#logoservices {
+	left: 34px;
+	top: 40px;
+	background-image: url(../images/LOGO_smaller_white.png);
+
+}
+#logogallery {
+	left: 34px;
+	top: 40px;
+	background-image: url(../images/LOGO_smaller_white.png);
+
+}
+
+#logocontact {
+	left: 34px;
+	top: 40px;
+	background-image: url(../images/LOGO_smaller_white.png);
+
+}
+
+
+.randompic {
+	width:278px;
+	height:160px;
+	position: absolute;
+
+}
+
+#randompic_aboutus {
+	background-image: url(../images/random_aboutus.jpg);
+	left: 496px;
+	top: 24px;
+}
+#randompic_services {
+	background-image: url(../images/random_services.jpg);
+	left: 496px;
+	top: 24px;
+}
+#randompic_gallery {
+	background-image: url(../images/random_gallery.jpg);
+	left: 496px;
+	top: 24px;
+}
+#randompic_contact {
+	background-image: url(../images/random_contact.jpg);
+	left: 496px;
+	top: 24px;
+}
+
+.navi {
+	width:800px;
+	height:22px;
+	position:absolute;
+	background-color:#0099FF;
+	left: 0;
+	top: 270px;	
+}
+#navi_aboutus1 {
+	left: 0px;
+	top: 244px;
+}
+#navi_aboutus2 {
+	left: 0px;
+	top: 190px;
+}
+
+#navi_services1 {
+	left: 0px;
+	top: 244px;
+}
+#navi_services2 {
+	left: 0px;
+	top: 190px;
+}
+
+#navi_gallery1 {
+	left: 0px;
+	top: 244px;
+}
+#navi_gallery2 {
+	left: 0px;
+	top: 190px;
+}
+
+
+#navi_contact1 {
+	left: 0px;
+	top: 244px;
+}
+#navi_contact2 {
+	left: 0px;
+	top: 191px;
+}
+
+
+
+#aboutus {
+	position: absolute;
+	top: 0px;
+	left: 122px;
+}
+
+#services {
+	position: absolute;
+	top: 0px;
+	left: 123px;
+}
+
+#gallery {
+	position: absolute;
+	top: 0px;
+	left: 122px;
+}
+
+#contact {
+	position: absolute;
+	top: 0px;
+	left: 123px;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-repeat:repeat-y;
+	width: 9000px;
+	height: 3000px;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+
+#absolute_home {
+	position:absolute;
+	top:5px;
+	left:50px;
+	width:1024px;
+	height:1024px;
+	background-image: url(../images/page_bg_about.png);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+#absolute_services {
+	position:absolute;
+	top:5px;
+	left:2324px;
+	width:1024px;
+	height:1024px;
+	background-image: url(../images/page_bg_services.png);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+
+#absolute_gallery {
+	position:absolute;
+	top:5px;
+	left:4648px;
+	width:1024px;
+	height:1024px;
+	background-image: url(../images/page_bg_gallery.png);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+#absolute_contact {
+	position:absolute;
+	top:5px;
+	left:6972px;
+	width:1024px;
+	height:1024px;
+	background-image: url(../images/page_bg_contact.png);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+
+
+#bluestripe {
+	position:absolute;
+	top:220px;
+	left:-2px;
+	width:9000px;
+	height:26px;
+	background-color:#0099FF;
+}
+
+/*
+	MENU STYLES FOR EACH PAGE
+*/
+.menu {
+	position:absolute;
+	color:#000000;
+	left: 170px;
+	top: 217px;
+	width: 587px;
+	font-family:Tahoma, "Trebuchet MS";
+	font-size:24px;
+}
+
+.mymenuitem {
+	float:left;
+	display:block;
+	width:146px;
+	left: 144px;
+	top: 2px;
+	text-align:center;
+}
+
+.mymenuitem:hover {
+	background-color:#000000;
+	cursor:pointer;
+	color: #0099FF;
+}
+
+#current_page_link {
+
+	font-weight:bolder;
+	
+}
+#current_page_link:hover {
+	font-weight:bolder;
+	cursor:default;
+	
+}
+.bg_bottom_left {
+	float: left;
+	position: absolute;
+	top: 268px;
+	width: 316px;
+	height: 408px;
+	left: 1px;
+}
+#bg_bottom_left_on_home {
+	background-image: url(../images/bg_old.gif);
+	background-repeat: repeat;
+}
+#bg_bottom_left_on_services {
+	background-image: url(../images/bg_old_flipped.gif);
+	background-repeat: repeat;
+}
+.content_bottom_right {
+	float: left;
+	position: absolute;
+	width: 336px;
+	height: 408px;
+	left: 463px;
+	top: 267px;
+	font-size: 12px;
+}
+
+
+#content_bottom_right_on_services {
+	float: left;
+	position: absolute;
+	width: 336px;
+	height: 408px;
+	left: 464px;
+	top: 294px;
+	font-family:Tahoma, "Trebuchet MS";
+	font-size:16px;
+	line-height: 20px;
+}
+
+.contentlink:hover {
+	cursor:pointer;
+	color:#FF6600;
+}
+.contentlink {
+	text-decoration:none;
+	color:inherit;
+}
+
+#bottom_left_on_contact .a {
+	color:#CCCCCC;
+	text-decoration:none;
+}
+#bottom_left_on_contact .a:hover {
+	color:#FF6600;
+	text-decoration:none;
+	cursor:pointer;
+}
+#fineprint {
+	position:absolute;
+	font-size:9px;
+	color:#FFFFFF;
+	line-height:12px;
+	width:280px;
+	text-align:justify;
+	left: 17px;
+	top: 322px;
+}
+#gallerydiv {
+	position:absolute;
+	left: 0px;
+	top: 271px;
+	width: 800px;
+	height: 403px;
+}
+.galleryStyle1 {
+	width: 217px;
+	display: block;
+	position:absolute;
+
+	border: 2px;
+	border-color:#000000;
+	border-style:solid;
+	border-bottom:hidden;
+	border-top:hidden;
+}
+.galleryStyle1:hover {
+	width: 217px;
+	display: block;
+	position:absolute;
+	left: 47px;
+	top: 2px;
+	border: 2px;
+	border-color:#FF6633;
+	border-style:solid;
+	border-bottom:hidden;
+	border-top:hidden;
+	background-color:#333333;
+	
+}
+
+
+
+.galleryStyle2 {
+	width: 217px;
+	display: block;
+	display: block;
+	position:absolute;
+	border: 2px;
+	border-color:#000000;
+	border-style:solid;
+	border-bottom:hidden;
+	border-top:hidden;
+	
+}
+.galleryStyle2:hover {
+	width: 217px;
+	display: block;
+	
+	position:absolute;
+	border: 2px;
+	border-color:#FF6633;
+	border-style:solid;
+	border-bottom:hidden;
+	border-top:hidden;
+	background-color:#333333;
+}
+
+
+.galleryStyle3 {
+	width: 410px;
+	display: block;
+	display: block;
+	position:absolute;
+	border: 2px;
+	border-bottom:hidden;
+	border-top:hidden;	
+	border-style:solid;	
+	border-color:#000000;
+
+}
+.galleryStyle3:hover {
+	width: 410px;
+	display: block;
+	display: block;
+	position:absolute;
+	border:2px;
+	border-color:#FF6633;
+	border-style:solid;
+	border-bottom:hidden;
+	border-top:hidden;
+	background-color:#333333;
+}
+
+
+#one {
+	left: 47px;
+	top: 2px;
+}
+
+#two {
+	left: 521px;
+	top: 2px;
+}
+
+#three {
+	left: 184px;
+	top: 106px;
+}
